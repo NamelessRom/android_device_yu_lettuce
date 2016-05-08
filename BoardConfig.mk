@@ -20,7 +20,7 @@ DEVICE_PATH := device/yu/lettuce
 TARGET_SPECIFIC_HEADER_PATH := $(DEVICE_PATH)/include
 
 # Kernel
-TARGET_KERNEL_CONFIG := cyanogenmod_lettuce-64_defconfig
+TARGET_KERNEL_CONFIG := custom_lettuce-64_defconfig
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
